@@ -5,7 +5,7 @@ export const fetchNews = () => async dispatch => {
         params: {
           country: 'us',
         //   apiKey: 'f5da6ff82e8249f49ea39f08a6b58aca'
-          apiKey: process.env.REACT_APP_KEY
+          apiKey: process.env.REACT_APP_API_KEY
         }
       });
   
